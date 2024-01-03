@@ -7,8 +7,8 @@ export default function iterateThroughObject(reportWithIterator) {
       break;
     }
 
-    employeeNames += value + " | "; // Append employee name and a separator
+    employeeNames += value + " | ";
   }
 
-  return employeeNames.slice(0, -3); // Remove trailing " | "
+  return employeeNames.slice(0, -3);
 }

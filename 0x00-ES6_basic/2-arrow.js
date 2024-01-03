@@ -1,7 +1,6 @@
 export default function getNeighborhoodsList() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
-  // Arrow function with implicit this binding
   this.addNeighborhood = (newNeighborhood) => {
     this.sanFranciscoNeighborhoods.push(newNeighborhood);
     return
